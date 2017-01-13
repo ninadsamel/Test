@@ -1,0 +1,131 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="User.master.cs" Inherits="Catch_if_you_Misbehave.User.User" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html>
+    
+<head>
+    <title>Catch if you Misbehave ranked keyword search in Data Computing</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="keywords" content="Royal Furnish Responsive web template, Bootstrap Web Templates, Flat Web Templates, Android Compatible web template, 
+Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, SonyEricsson, Motorola web design" />
+    <script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false);
+		function hideURLbar(){ window.scrollTo(0,1); } </script>
+    <!-- //for-mobile-apps -->
+    <link href="../User/css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="../User/css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- js -->
+    <script type="text/javascript" src="../User/js/jquery-2.1.4.min.js"></script>
+    <!-- //js -->
+    <!--animate-->
+    <link href="../User/css/animate.css" rel="stylesheet" type="text/css" media="all">
+    <script src="../User/js/wow.min.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+    <!--//end-animate-->
+    <link href='//fonts.googleapis.com/css?family=Kanit:400,100,100italic,200,200italic,300,300italic,400italic,500,500italic,600,600italic,700,700italic,800,800italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Lato:400,100,100italic,300,300italic,400italic,700,700italic,900,900italic'
+        rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="../User/js/numscroller-1.0.js"></script>
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="../User/js/move-top.js"></script>
+    <script type="text/javascript" src="../User/js/easing.js"></script>
+    <script type="text/javascript">
+        jQuery(document).ready(function ($) {
+            $(".scroll").click(function (event) {
+                event.preventDefault();
+                $('html,body').animate({ scrollTop: $(this.hash).offset().top }, 1000);
+            });
+        });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <script src="../User/js/responsiveslides.min.js"></script>
+</head>
+<body>
+    <form id="Form1" runat="server">
+    <!-- header -->
+    <div class="header wow zoomIn w3l">
+        <div class="container">
+            <div class="header text-center">
+                <h4>
+                    CATCH YOU IF YOU MISBEHAVE RANKED KEYWORD SEARCH RESULTS VERIFICATION IN DATA COMPUTING</h4>
+            </div>
+        </div>
+    </div>
+    <!-- //header -->
+    <!-- banner -->
+    <asp:ContentPlaceHolder runat="server" ID="Header">
+        
+    </asp:ContentPlaceHolder>
+    <!-- //banner -->
+    <!-- about -->
+    <asp:ContentPlaceHolder runat="server" ID="Main">
+    </asp:ContentPlaceHolder>
+    <div class="contact w3agile wow fadeIn animated animated" data-wow-delay="0.1s" data-wow-duration="0s">
+        <div class="container">
+            <%--<h3 class="title">Get In Touch<span></span></h3>
+		<div class="contact_grids">
+			<form action="#" method="post">
+				<div class="col-md-6 contact_left">
+					<div class="cont_bor">
+						<i class="glyphicon glyphicon-user"> </i><input type="text" value="Name" name="Name" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+						<div class="clearfix"></div>
+					</div>
+					<div class="cont_bor">
+						<i class="glyphicon glyphicon-envelope"> </i><input type="email" value="Email" name="Email" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+						<div class="clearfix"></div>
+					</div>
+					<div class="cont_bor">
+						<i class="glyphicon glyphicon-earphone"></i>  <input type="text" value="Mobile" name="Mobile" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Mobile';}" required="">					
+						<div class="clearfix"></div>
+					</div>
+				</div>
+				<div class="col-md-6 contact_right">
+					<div class="cont_bor">
+						<i class="glyphicon glyphicon-globe"></i><input type="text" value="Website" name="Website" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Website';}" required="">
+						<div class="clearfix"></div>
+					</div>
+					<div class="cont_bor">
+						<i class="glyphicon glyphicon-edit"></i><textarea name="Message..." onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">Message...</textarea>
+						<div class="clearfix"></div>
+					</div>
+					<input type="submit" value="Submit" >
+					<div class="clearfix"></div>
+				</div>
+				<div class="clearfix"></div>
+			</form>
+		</div>
+            --%><div class="footer agileinfo text-center">
+                <p>
+                    &copy; 2016 Royal Furnish . All rights reserved | Design by <a href="http://w3layouts.com">
+                        W3layouts</a></p>
+            </div>
+        </div>
+    </div>
+    <!-- //about -->
+    <!-- smooth scrolling -->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            /*
+            var defaults = {
+            containerID: 'toTop', // fading element id
+            containerHoverID: 'toTopHover', // fading element hover id
+            scrollSpeed: 1200,
+            easingType: 'linear' 
+            };
+            */
+            $().UItoTop({ easingType: 'easeOutQuart' });
+        });
+    </script>
+    <a href="#" id="toTop" style="display: block;"><span id="toTopHover" style="opacity: 1;">
+    </span></a>
+    <!-- //smooth scrolling -->
+    <script type="text/javascript" src="../User/js/bootstrap-3.1.1.min.js"></script>
+    </form>
+</body>
+
+</html>
